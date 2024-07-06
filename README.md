@@ -2,6 +2,8 @@
 
 I am learning building Blog site using Python Django from different Video Courses, Books, and Websites.
 
+In Django, a project is considered a Django installation with some settings. An application is a group of models, views, templates, and URLs. Applications interact with the framework to provide specific functionalities and may be reused in various projects.
+
 ## Few Commands
 
 ```powershell
@@ -19,6 +21,8 @@ python manage.py migrate
 python manage.py runserver
 
 python manage.py runserver 127.0.0.1:8001 --settings=mysite.settings
+
+python manage.py startapp blog
 ```
 
 ## Few Points
