@@ -27,9 +27,11 @@ python manage.py startapp blog
 D:\TSA\blog-in-py\blogposts> python manage.py makemigrations blog
 D:\TSA\blog-in-py\blogposts> python manage.py sqlmigrate blog 0001
 D:\TSA\blog-in-py\blogposts> python manage.py migrate
+```
 
+```powershell
 D:\TSA\blog-in-py\blogposts> python manage.py shell
-shell>>> 
+shell>>>
 ```
 
 ## Few Points
