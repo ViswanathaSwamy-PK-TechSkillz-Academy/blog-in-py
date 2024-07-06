@@ -25,7 +25,11 @@ python manage.py runserver 127.0.0.1:8001 --settings=mysite.settings
 python manage.py startapp blog
 
 D:\TSA\blog-in-py\blogposts> python manage.py makemigrations blog
+D:\TSA\blog-in-py\blogposts> python manage.py sqlmigrate blog 0001
+D:\TSA\blog-in-py\blogposts> python manage.py migrate
 
+D:\TSA\blog-in-py\blogposts> python manage.py shell
+shell>>> 
 ```
 
 ## Few Points
