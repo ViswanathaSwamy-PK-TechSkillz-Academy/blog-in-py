@@ -5,5 +5,5 @@ I am learning building Blog site using Python Django from different Video Course
 ## Few Commands
 
 ```powershell
-python -m venv .vene
+py -m venv .venv
 ```
