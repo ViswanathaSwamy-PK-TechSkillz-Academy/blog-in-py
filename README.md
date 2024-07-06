@@ -12,6 +12,13 @@ python -m pip install Django~=5.0.4
 python -m django --version
 
 django-admin startproject blogposts
+
+cd blogposts
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py runserver 127.0.0.1:8001 --settings=mysite.settings
 ```
 
 ## Few Points
