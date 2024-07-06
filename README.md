@@ -27,6 +27,20 @@ python manage.py startapp blog
 D:\TSA\blog-in-py\blogposts> python manage.py makemigrations blog
 D:\TSA\blog-in-py\blogposts> python manage.py sqlmigrate blog 0001
 D:\TSA\blog-in-py\blogposts> python manage.py migrate
+
+(.venv) PS D:\TSA\blog-in-py\blogposts> python manage.py createsuperuser
+
+python manage.py runserver
+```
+
+```text
+(.venv) PS D:\TSA\blog-in-py\blogposts> python manage.py createsuperuser
+Username (leave blank to use 'pk.viswanatha-swamy'): admin
+Email address: admin@example.com
+Password:
+Password (again):
+Superuser created successfully.
+(.venv) PS D:\TSA\blog-in-py\blogposts>
 ```
 
 ```powershell
