@@ -31,6 +31,9 @@ D:\TSA\blog-in-py\blogposts> python manage.py migrate
 (.venv) PS D:\TSA\blog-in-py\blogposts> python manage.py createsuperuser
 
 python manage.py runserver
+
+python manage.py makemigrations blog
+
 ```
 
 ```text
